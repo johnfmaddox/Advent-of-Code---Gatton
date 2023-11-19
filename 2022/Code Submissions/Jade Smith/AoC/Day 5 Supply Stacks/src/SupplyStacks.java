@@ -1,0 +1,80 @@
+import java.util.Scanner;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.List;
+import java.util.ArrayList;
+import java.util.Stack;
+import java.util.StringTokenizer;
+public class SupplyStacks {
+	public static List<Stack<Character>> stacks = new ArrayList<Stack<Character>>();
+	/*
+	public static void move(String instruction) {
+		if(instruction.equals("")) {
+			return;
+		}
+		StringTokenizer instructionTokenizer = new StringTokenizer(instruction);
+		instructionTokenizer.nextToken();
+		int cnt = Integer.parseInt(instructionTokenizer.nextToken());
+		instructionTokenizer.nextToken();
+		int start = Integer.parseInt(instructionTokenizer.nextToken());
+		instructionTokenizer.nextToken();
+		int end = Integer.parseInt(instructionTokenizer.nextToken());
+		for(int i = 0; i<cnt; i++) {
+			stacks.get(end-1).push(stacks.get(start-1).pop());
+		}
+	}
+	*/
+	public static void move(String instruction) {
+		if(instruction.equals("")) {
+			return;
+		}
+		StringTokenizer instructionTokenizer = new StringTokenizer(instruction);
+		instructionTokenizer.nextToken();
+		int cnt = Integer.parseInt(instructionTokenizer.nextToken());
+		instructionTokenizer.nextToken();
+		int start = Integer.parseInt(instructionTokenizer.nextToken());
+		instructionTokenizer.nextToken();
+		int end = Integer.parseInt(instructionTokenizer.nextToken());
+		Stack<Character> temp = new Stack<>();
+		for(int i = 0; i<cnt; i++) {
+			temp.push(stacks.get(start-1).pop());
+		}
+		for(int i = 0; i<cnt; i++) {
+			stacks.get(end-1).push(temp.pop());
+		}
+	}
+	public static void main(String[] args) throws FileNotFoundException{
+		Scanner stdin = new Scanner(new File("input"));
+		List<String> lines = new ArrayList<String>();
+		boolean instructionsStarted = false;
+		
+		while(stdin.hasNextLine()) {
+			String currentLine = stdin.nextLine();
+			int numberOfStacks=0;
+			if(!instructionsStarted) {
+				if(currentLine.substring(1, 2).equals("1")) {
+					numberOfStacks = Integer.parseInt(currentLine.substring(currentLine.length()-2, currentLine.length()-1));
+					instructionsStarted=true;
+					for(int i = 0; i<numberOfStacks;i++) {
+						Stack<Character> thisStack=new Stack<Character>();
+						for(int j=lines.size()-1; j>=0; j--) {
+							if(lines.get(j).charAt((i*4)+1)!=' ') {
+								thisStack.push(lines.get(j).charAt((i*4)+1));
+							}else {
+								break;
+							}
+						}
+						stacks.add(thisStack);
+					}
+				}else {
+					lines.add(currentLine);
+				}
+			}else {
+				move(currentLine);
+			}
+		}
+		for(int i = 0; i<stacks.size(); i++) {
+			System.out.print(stacks.get(i).peek());
+		}
+	}
+}

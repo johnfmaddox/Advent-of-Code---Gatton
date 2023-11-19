@@ -1,0 +1,33 @@
+import java.util.Scanner;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.StringTokenizer;
+public class CampCleanup {
+	public static boolean contains(String pair) {
+		StringTokenizer tokenizer = new StringTokenizer(pair);
+		String firstPartner = tokenizer.nextToken(",");
+		String secondPartner = tokenizer.nextToken();
+		StringTokenizer firstTokenizer = new StringTokenizer(firstPartner);
+		StringTokenizer secondTokenizer = new StringTokenizer(secondPartner);
+		int firstPartnerMin = Integer.parseInt(firstTokenizer.nextToken("-"));
+		int firstPartnerMax = Integer.parseInt(firstTokenizer.nextToken());
+		int secondPartnerMin = Integer.parseInt(secondTokenizer.nextToken("-"));
+		int secondPartnerMax = Integer.parseInt(secondTokenizer.nextToken());
+		if((firstPartnerMin<=secondPartnerMin && firstPartnerMax>=secondPartnerMax) || (firstPartnerMin>=secondPartnerMin && firstPartnerMax<=secondPartnerMax)) {
+			return true;
+		}else {
+			return false;
+		}
+	}
+	public static void main(String[] args) throws FileNotFoundException{
+		Scanner stdin = new Scanner(new File("input"));
+		int cnt = 0;
+		while(stdin.hasNextLine()) {
+			String pair = stdin.next();
+			if(contains(pair)) {
+				cnt++;
+			}
+		}
+		System.out.println(cnt);
+	}
+}

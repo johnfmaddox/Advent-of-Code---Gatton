@@ -1,0 +1,55 @@
+import java.util.Scanner;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.List;
+import java.util.ArrayList;
+class Directory{
+	List<DriveFile> files;
+	List<Directory> subDirectories;
+	Directory parent;
+	Directory(Directory parent){
+		if(parent!=null) {
+			this.parent = parent;
+		}
+		this.files=new ArrayList<DriveFile>();
+		this.subDirectories= new ArrayList<Directory>();
+	}
+	public void addFile(DriveFile file) {
+		files.add(file);
+	}
+	//public void addDirectories()
+	int getSize() {
+		int ret = 0;
+		for(int i = 0; i<files.size(); i++) {
+			ret+=files.get(i).getSize();
+		}
+		for(int i = 0; i<subDirectories.size(); i++) {
+			ret+=subDirectories.get(i).getSize();
+		}
+		return ret;
+	}
+}
+class DriveFile{
+	int size;
+	DriveFile(int size){
+		this.size=size;
+	}
+	int getSize() {
+		return size;
+	}
+}
+public class DriveAnalyzer {
+	public static void main(String[] args) throws FileNotFoundException {
+		Scanner stdin = new Scanner(new File("input"));
+		List<Directory> directories = new ArrayList<Directory>();
+		Directory currentDirectory = null;
+		while(stdin.hasNextLine()) {
+			String cmdInput = stdin.next();
+			if(cmdInput.charAt(0)=='$') {
+				if(cmdInput.substring(2, 4).equals("cd")) {
+					//currentDirectory =
+				}
+			}
+		}
+	}
+}
