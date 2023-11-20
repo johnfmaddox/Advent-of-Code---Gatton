@@ -28,5 +28,6 @@ The state of the Gatton leaderboard at midnight (Central) on December 31, 2022 w
 
 ## Solution Sharing/Publishing
 
-At the conclusion of the competition, you will need to submit the code you developed for each puzzle.  These solutions will be uploaded to a publicly accessible GitHub account, so you can see how your peers solved the problems.  Organize your work in a simple folder structure on your computer with a new folder for each day.  Instructions will be provided to upload your work at the end of the competition.
+At the conclusion of the competition, you will need to submit the code you developed for each puzzle using the following form: [Source Code Submission Form](https://docs.google.com/forms/d/e/1FAIpQLSeKIdDojTGqca3GCyVP9d74TH23Ecx4EEzcaXE-psQQDkltAw/viewform?usp=sf_link).
+These solutions will be uploaded to a publicly accessible GitHub account, so you can see how your peers solved the problems.  Organize your work in a simple folder structure on your computer with a new folder for each day.  Instructions will be provided to upload your work at the end of the competition.
 You can see the solutions submitted from previous years in this repository.
