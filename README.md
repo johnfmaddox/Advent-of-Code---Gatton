@@ -1,4 +1,4 @@
-# Advent-of-Code - Gatton
+# Gatton Academy Winter Break Coding Competition
 
 ## General Information
 
