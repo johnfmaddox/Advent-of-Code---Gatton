@@ -24,7 +24,7 @@ A Gatton-specific leaderboard will be used to track your progress and select win
 The state of the Gatton leaderboard at midnight (Central) on December 31, 2022 will be used to declare winners for the competition.  While the leaderboard will remain open indefinitely, any submissions in 2023 will not be counted toward the competition scoring. Winners will be declared in the following categories:
 
 * Highest Scoring Wing (group scoring: {# stars}/{# wing residents}) - Trophy
-* Participation (all students earning at least 5 stars) - Pizza Party during the weekend of Jan 21-22
+* Participation (all students earning at least 5 stars) - Pizza Party during the spring semester
 
 ## Solution Sharing/Publishing
 
