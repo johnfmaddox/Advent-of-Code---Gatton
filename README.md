@@ -1,4 +1,4 @@
-# Gatton Academy Winter Break Coding Competition
+# Gatton Academy Winter Break Coding Challenge
 
 ## General Information
 
