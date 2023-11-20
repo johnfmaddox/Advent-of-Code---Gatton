@@ -15,6 +15,7 @@ A Gatton-specific leaderboard will be used to track your progress and select win
 * Log into Advent of Code (https://adventofcode.com/)
 * Click on [Leaderboard] then select [Private Leaderboard] (https://adventofcode.com/2023/leaderboard/private)
 * Join the Gatton Academy Leaderboard using the code:  2309876-dea04dcf
+* Fill out the following entry form so your wing gets credit for your submissions: [Entry Form](https://docs.google.com/forms/d/e/1FAIpQLSeKIdDojTGqca3GCyVP9d74TH23Ecx4EEzcaXE-psQQDkltAw/viewform?usp=sf_link)
 * Submit your results for the problems through the AoC site to earn Stars
 * SAVE YOUR CODE!!!  Advent of Code does not require you to submit your code, however you will be required to submit your source code for each problem at the end of the Gatton competition to receive credit. 
 
