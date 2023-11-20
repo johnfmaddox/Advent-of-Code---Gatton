@@ -12,18 +12,18 @@ Advent of Code uses OAuth to confirm your identity: GitHub, Google, Twitter, or 
 
 A Gatton-specific leaderboard will be used to track your progress and select winners for the competition. 
 
-    Log into Advent of Code (https://adventofcode.com/)
-    Click on [Leaderboard] then select [Private Leaderboard] (https://adventofcode.com/2023/leaderboard/private)
-    Join the Gatton Academy Leaderboard using the code:  2309876-dea04dcf
-    Submit your results for the problems through the AoC site to earn Stars
-    SAVE YOUR CODE!!!  Advent of Code does not require you to submit your code, however you will be required to submit your source code for each problem at the end of the Gatton competition to receive credit. 
+* Log into Advent of Code (https://adventofcode.com/)
+* Click on [Leaderboard] then select [Private Leaderboard] (https://adventofcode.com/2023/leaderboard/private)
+* Join the Gatton Academy Leaderboard using the code:  2309876-dea04dcf
+* Submit your results for the problems through the AoC site to earn Stars
+* SAVE YOUR CODE!!!  Advent of Code does not require you to submit your code, however you will be required to submit your source code for each problem at the end of the Gatton competition to receive credit. 
 
 ## Scoring/Rules/Prizes
 
 The state of the Gatton leaderboard at midnight (Central) on December 31, 2022 will be used to declare winners for the competition.  While the leaderboard will remain open indefinitely, any submissions in 2023 will not be counted toward the competition scoring. Winners will be declared in the following categories:
 
-    Highest Scoring Wing (group scoring: {# stars}/{# wing residents}) - Trophy
-    Participation (all students earning at least 5 stars) - Pizza Party during the weekend of Jan 21-22
+* Highest Scoring Wing (group scoring: {# stars}/{# wing residents}) - Trophy
+* Participation (all students earning at least 5 stars) - Pizza Party during the weekend of Jan 21-22
 
 ## Solution Sharing/Publishing
 
