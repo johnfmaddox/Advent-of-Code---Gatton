@@ -12,7 +12,7 @@ Advent of Code uses OAuth to confirm your identity: GitHub, Google, Twitter, or 
 
 A Gatton-specific leaderboard will be used to track your progress and select winners for the competition. 
 
-* Log into Advent of Code (https://adventofcode.com/)
+* Log in to Advent of Code (https://adventofcode.com/)
 * Click on [Leaderboard] then select [Private Leaderboard] (https://adventofcode.com/2023/leaderboard/private)
 * Join the Gatton Academy Leaderboard using the code:  2309876-dea04dcf
 * Fill out the following entry form so your wing gets credit for your submissions: [Entry Form](https://docs.google.com/forms/d/e/1FAIpQLSeKIdDojTGqca3GCyVP9d74TH23Ecx4EEzcaXE-psQQDkltAw/viewform?usp=sf_link)
@@ -29,5 +29,5 @@ The state of the Gatton leaderboard at midnight (Central) on December 31, 2022 w
 ## Solution Sharing/Publishing
 
 At the conclusion of the competition, you will need to submit the code you developed for each puzzle using the following form: [Source Code Submission Form](https://docs.google.com/forms/d/e/1FAIpQLSeKIdDojTGqca3GCyVP9d74TH23Ecx4EEzcaXE-psQQDkltAw/viewform?usp=sf_link).  
-These solutions will be uploaded to a publicly accessible GitHub account, so you can see how your peers solved the problems.  Organize your work in a simple folder structure on your computer with a new folder for each day.  Instructions will be provided to upload your work at the end of the competition.
+These solutions will be uploaded to a publicly accessible [location](https://github.com/johnfmaddox/Advent-of-Code---Gatton/), so you can see how your peers solved the problems.  Organize your work in a simple folder structure on your computer with a new folder for each day.  Instructions will be provided to upload your work at the end of the competition.
 You can see the solutions submitted from previous years in this repository.
