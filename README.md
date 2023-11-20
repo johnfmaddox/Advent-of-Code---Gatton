@@ -1,4 +1,4 @@
-# Advent-of-Code---Gatton
+# Advent-of-Code - Gatton
 
 ## General Information
 
